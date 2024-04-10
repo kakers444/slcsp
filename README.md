@@ -1,4 +1,10 @@
-To run this program, you should include a csv file as the first argument. The csv file should have the headers zipcode,rate. 
+To run this program with the default input, follow these steps:
+1. Ensure Python 3 is installed.
+2. Download the zip file of this project and extract it.
+3. In terminal/command prompt, navigate inside the extracted folder and run the command: python3 slcsp_script.py slcsp.csv
+4. Alternatively, depending on your system, you may need to run it as python instead of python3.
+
+If you want to run the program with a different set of zip codes, you should include the filename as the first argument instead of the default 'slcsp.csv'. The csv file should have the headers: zipcode,rate. 
 Each row of the file should be in the format: 
 zipcode,
 Where zipcode is the actual zipcode, followed by a , and a blank.
@@ -6,8 +12,7 @@ Example file:
 zipcode,rate
 41101,
 
-The default input is in the slcsp.csv file. To run it, navigate to the directory and enter:
-python slcsp_script.py slcsp.csv
+The default input is in the slcsp.csv file.
 
 The original prompt for this program is found below.
 
